@@ -95,7 +95,7 @@ final-year-project/
 - Node.js 18+
 - Docker (for PostgreSQL)
 
-### 2. Database
+### 2. Database/Backend/Frontend/Environment Variables (.env)
 ```bash
 docker compose up -d
 
