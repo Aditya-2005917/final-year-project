@@ -1,0 +1,2008 @@
+{
+  "dataset_name": "MMR Supporting Regions and Infrastructure",
+  "version": "2026-08-13",
+  "basis": "MMRDA official MMR administrative scope and metro/master-plan material",
+  "official_scope": {
+    "area_sq_km_approx": 6328,
+    "municipal_corporations": 9,
+    "municipal_councils": 9,
+    "municipal_panchayats": 1,
+    "districts": [
+      "Thane",
+      "Raigad",
+      "Palghar"
+    ],
+    "source": "mmrda_about_mmr"
+  },
+  "official_urban_bodies": {
+    "municipal_corporations": [
+      "Brihanmumbai Municipal Corporation",
+      "Thane Municipal Corporation",
+      "Kalyan-Dombivli Municipal Corporation",
+      "Navi Mumbai Municipal Corporation",
+      "Ulhasnagar Municipal Corporation",
+      "Bhiwandi-Nizampur Municipal Corporation",
+      "Vasai-Virar City Municipal Corporation",
+      "Mira-Bhayandar Municipal Corporation",
+      "Panvel Municipal Corporation"
+    ],
+    "municipal_councils": [
+      "Ambernath Municipal Council",
+      "Kulgaon-Badlapur Municipal Council",
+      "Matheran Municipal Council",
+      "Karjat Municipal Council",
+      "Khopoli Municipal Council",
+      "Pen Municipal Council",
+      "Uran Municipal Council",
+      "Alibag Municipal Council",
+      "Palghar Municipal Council"
+    ],
+    "municipal_panchayat": [
+      "Khalapur Nagar Panchayat"
+    ]
+  },
+  "metro_corridors": {
+    "Line 1": {
+      "name": "Versova\u2013Andheri\u2013Ghatkopar",
+      "length_km": 11.4,
+      "areas": [
+        "Versova",
+        "Andheri",
+        "Ghatkopar"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 2A": {
+      "name": "Dahisar\u2013D.N. Nagar",
+      "length_km": 18.6,
+      "areas": [
+        "Dahisar",
+        "Borivali",
+        "Kandivali",
+        "Malad",
+        "Goregaon",
+        "Jogeshwari",
+        "Andheri"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 2B": {
+      "name": "D.N. Nagar\u2013Mandale",
+      "length_km": 23.6,
+      "areas": [
+        "Andheri",
+        "Bandra",
+        "Kurla",
+        "Chembur",
+        "Mankhurd/Mandale corridor"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 3": {
+      "name": "Colaba\u2013Bandra\u2013SEEPZ (Andheri)",
+      "length_km": 33.5,
+      "areas": [
+        "South Mumbai",
+        "Bandra",
+        "Andheri",
+        "SEEPZ"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 4": {
+      "name": "Wadala\u2013Ghatkopar\u2013Mulund\u2013Thane\u2013Kasarvadavali",
+      "length_km": 32.3,
+      "areas": [
+        "Wadala",
+        "Ghatkopar",
+        "Vikhroli",
+        "Bhandup",
+        "Mulund",
+        "Thane",
+        "Kasarvadavali"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 4A": {
+      "name": "Kasarvadavali\u2013Gaimukh",
+      "length_km": 2.7,
+      "areas": [
+        "Kasarvadavali",
+        "Gaimukh"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 5": {
+      "name": "Thane\u2013Bhiwandi\u2013Kalyan",
+      "length_km": 24.9,
+      "areas": [
+        "Thane",
+        "Bhiwandi",
+        "Kalyan"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 6": {
+      "name": "Swami Samarth Nagar\u2013JVLR\u2013SEEPZ\u2013Kanjurmarg\u2013Vikhroli (EEH)",
+      "length_km": 14.5,
+      "areas": [
+        "Andheri/Jogeshwari",
+        "Powai",
+        "Kanjurmarg",
+        "Vikhroli"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 7": {
+      "name": "Andheri East\u2013Dahisar East",
+      "length_km": 16.5,
+      "areas": [
+        "Andheri East",
+        "Goregaon East",
+        "Malad East",
+        "Kandivali East",
+        "Borivali East",
+        "Dahisar East"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 8": {
+      "name": "Airport Metro: CSMIA\u2013Navi Mumbai International Airport",
+      "length_km": 35.0,
+      "areas": [
+        "Mumbai airport corridor",
+        "Navi Mumbai airport corridor"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 9 & 7A": {
+      "name": "Dahisar East\u2013Mira-Bhayander and Andheri East\u2013CSMIA",
+      "length_km": 13.5,
+      "areas": [
+        "Dahisar",
+        "Mira Road",
+        "Bhayandar",
+        "Andheri East",
+        "CSMIA"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 10": {
+      "name": "Gaimukh\u2013Shivaji Chowk (Mira Road)",
+      "length_km": 9.2,
+      "areas": [
+        "Gaimukh",
+        "Mira Road"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 11": {
+      "name": "Wadala\u2013CSMT",
+      "length_km": 12.7,
+      "areas": [
+        "Wadala",
+        "Central Mumbai",
+        "CSMT"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 12": {
+      "name": "Kalyan\u2013Taloja",
+      "length_km": 20.7,
+      "areas": [
+        "Kalyan",
+        "Taloja"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 13": {
+      "name": "Shivaji Chowk (Mira Road)\u2013Virar",
+      "length_km": 23.0,
+      "areas": [
+        "Mira Road",
+        "Vasai-Virar",
+        "Virar"
+      ],
+      "source": "mmrda_metro_master_plan"
+    },
+    "Line 14": {
+      "name": "Kanjurmarg\u2013Badlapur",
+      "length_km": 45.0,
+      "areas": [
+        "Kanjurmarg",
+        "Badlapur"
+      ],
+      "source": "mmrda_metro_master_plan"
+    }
+  },
+  "localities": {
+    "Andheri": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail",
+        "Airport Connectivity"
+      ],
+      "description": "Major western/eastern suburban interchange around the Andheri transport hub and airport-side corridor.",
+      "metro_corridors": [
+        "Line 1",
+        "Line 2A",
+        "Line 2B",
+        "Line 3",
+        "Line 6",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Andheri East": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Airport Connectivity",
+        "SEEPZ"
+      ],
+      "description": "Eastern Andheri lies on the Line 7 corridor and the airport-side Line 9/7A planning corridor.",
+      "metro_corridors": [
+        "Line 3",
+        "Line 6",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Andheri West": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Western Suburbs"
+      ],
+      "description": "Western Andheri is tied to the Versova\u2013Andheri\u2013Ghatkopar corridor and the wider western-suburban metro network.",
+      "metro_corridors": [
+        "Line 1",
+        "Line 2A",
+        "Line 2B"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Bandra": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "BKC/Commercial",
+        "Western Suburbs"
+      ],
+      "description": "Bandra is a major western-suburban and commercial node with multiple planned/operational metro corridors.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Bandra East": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "BKC/Commercial"
+      ],
+      "description": "Eastern Bandra is in the Bandra/BKC-side transport catchment.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Bandra West": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Western Suburbs"
+      ],
+      "description": "Western Bandra is in the western-suburban transport catchment.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Juhu": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Airport Connectivity"
+      ],
+      "description": "Juhu is in the airport-side western-suburban catchment near Andheri.",
+      "metro_corridors": [
+        "Line 1",
+        "Line 6",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Khar": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Rail"
+      ],
+      "description": "Khar forms part of the established western-suburban transport corridor.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Santacruz": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Airport/BKC Connectivity"
+      ],
+      "description": "Santacruz sits in the western-suburban airport/BKC-side transport catchment.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Santacruz East": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs"
+      ],
+      "description": "Part of the established Santacruz western-suburban corridor.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Santacruz West": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs"
+      ],
+      "description": "Part of the established Santacruz western-suburban corridor.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Vile Parle": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Airport Connectivity"
+      ],
+      "description": "Airport-side western-suburban transport catchment.",
+      "metro_corridors": [
+        "Line 6",
+        "Line 7",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Vile Parle East": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Airport Connectivity"
+      ],
+      "description": "Airport-side western-suburban transport catchment.",
+      "metro_corridors": [
+        "Line 6",
+        "Line 7",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Vile Parle West": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Airport Connectivity"
+      ],
+      "description": "Airport-side western-suburban transport catchment.",
+      "metro_corridors": [
+        "Line 6",
+        "Line 7",
+        "Line 3"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Goregaon": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban growth corridor linked to the Line 2A/7 network.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Goregaon East": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban growth corridor linked to the Line 2A/7 network.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Goregaon West": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban growth corridor linked to the Line 2A/7 network.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Malad": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Malad East": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Malad West": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kandivali": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kandivali East": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kandivali West": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Borivali": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Borivali East": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Borivali West": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Dahisar": {
+      "region": "Mumbai",
+      "categories": [
+        "Western Suburbs",
+        "Metro"
+      ],
+      "description": "Western-suburban corridor with metro planning/transport integration.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 7",
+        "Line 9 & 7A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Jogeshwari": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Western Suburbs"
+      ],
+      "description": "Western-suburban interchange area tied to the Line 6/7 network.",
+      "metro_corridors": [
+        "Line 2A",
+        "Line 6",
+        "Line 7"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Powai": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Employment/Institutional Hub"
+      ],
+      "description": "Powai is on the Line 6 corridor toward Kanjurmarg and Vikhroli.",
+      "metro_corridors": [
+        "Line 6"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kanjurmarg": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Eastern Suburbs"
+      ],
+      "description": "Eastern suburban corridor and future interchange zone.",
+      "metro_corridors": [
+        "Line 4",
+        "Line 6",
+        "Line 14"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Vikhroli": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Eastern Suburbs"
+      ],
+      "description": "Eastern suburban corridor and future interchange zone.",
+      "metro_corridors": [
+        "Line 4",
+        "Line 6",
+        "Line 14"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Ghatkopar": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail"
+      ],
+      "description": "Key eastern suburban interchange on Metro Line 1 and the Line 4 corridor.",
+      "metro_corridors": [
+        "Line 1",
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Ghatkopar East": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail"
+      ],
+      "description": "Key eastern suburban interchange on Metro Line 1 and the Line 4 corridor.",
+      "metro_corridors": [
+        "Line 1",
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Ghatkopar West": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail"
+      ],
+      "description": "Key eastern suburban interchange on Metro Line 1 and the Line 4 corridor.",
+      "metro_corridors": [
+        "Line 1",
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Bhandup": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail",
+        "Eastern Suburbs"
+      ],
+      "description": "Eastern suburban corridor with Line 4/rail integration.",
+      "metro_corridors": [
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Bhandup East": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail",
+        "Eastern Suburbs"
+      ],
+      "description": "Eastern suburban corridor with Line 4/rail integration.",
+      "metro_corridors": [
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Bhandup West": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail",
+        "Eastern Suburbs"
+      ],
+      "description": "Eastern suburban corridor with Line 4/rail integration.",
+      "metro_corridors": [
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Mulund": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail",
+        "Eastern Suburbs"
+      ],
+      "description": "Eastern suburban corridor with Line 4/rail integration.",
+      "metro_corridors": [
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Mulund East": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail",
+        "Eastern Suburbs"
+      ],
+      "description": "Eastern suburban corridor with Line 4/rail integration.",
+      "metro_corridors": [
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Mulund West": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail",
+        "Eastern Suburbs"
+      ],
+      "description": "Eastern suburban corridor with Line 4/rail integration.",
+      "metro_corridors": [
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Nahur": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Rail",
+        "Eastern Suburbs"
+      ],
+      "description": "Eastern suburban corridor with Line 4/rail integration.",
+      "metro_corridors": [
+        "Line 4"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Chembur": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kurla": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Sion": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Dadar": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Wadala": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Parel": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Lower Parel": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 2B",
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Byculla": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Mazagaon": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Mahim": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Deonar": {
+      "region": "Mumbai",
+      "categories": [
+        "Central/Eastern Mumbai",
+        "Regional Transport"
+      ],
+      "description": "Central/eastern Mumbai multi-modal transport catchment within MMR's regional transport framework.",
+      "metro_corridors": [
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Prabhadevi": {
+      "region": "Mumbai",
+      "categories": [
+        "Metro",
+        "Central Mumbai"
+      ],
+      "description": "Central Mumbai corridor with planned integration toward Wadala/CSMT.",
+      "metro_corridors": [
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Worli": {
+      "region": "Mumbai",
+      "categories": [
+        "Central Mumbai",
+        "Regional Connectivity"
+      ],
+      "description": "Central Mumbai regional connectivity node in the MMR transport system.",
+      "metro_corridors": [
+        "Line 3",
+        "Line 11"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Thane": {
+      "region": "Thane",
+      "categories": [
+        "Metro",
+        "Regional Transit"
+      ],
+      "description": "Thane metro/rail corridor connecting Mumbai's eastern suburbs with Bhiwandi, Kalyan and Kasarvadavali.",
+      "metro_corridors": [
+        "Line 4",
+        "Line 5"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Thane East": {
+      "region": "Thane",
+      "categories": [
+        "Metro",
+        "Regional Transit"
+      ],
+      "description": "Thane metro/rail corridor connecting Mumbai's eastern suburbs with Bhiwandi, Kalyan and Kasarvadavali.",
+      "metro_corridors": [
+        "Line 4",
+        "Line 5"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Thane West": {
+      "region": "Thane",
+      "categories": [
+        "Metro",
+        "Regional Transit"
+      ],
+      "description": "Thane metro/rail corridor connecting Mumbai's eastern suburbs with Bhiwandi, Kalyan and Kasarvadavali.",
+      "metro_corridors": [
+        "Line 4",
+        "Line 5"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kasarvadavali": {
+      "region": "Thane",
+      "categories": [
+        "Metro",
+        "Regional Growth"
+      ],
+      "description": "Eastern terminus area of Line 4 with Line 4A extension toward Gaimukh.",
+      "metro_corridors": [
+        "Line 4",
+        "Line 4A"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Mumbra": {
+      "region": "Thane",
+      "categories": [
+        "Rail",
+        "Regional Transit"
+      ],
+      "description": "Thane-side regional transport corridor within the wider MMR network.",
+      "metro_corridors": [
+        "Line 4",
+        "Line 5"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kalwa": {
+      "region": "Thane",
+      "categories": [
+        "Rail",
+        "Regional Transit"
+      ],
+      "description": "Thane-side regional transport corridor within the wider MMR network.",
+      "metro_corridors": [
+        "Line 4",
+        "Line 5"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Bhiwandi": {
+      "region": "Thane",
+      "categories": [
+        "Metro",
+        "Regional Transit"
+      ],
+      "description": "Bhiwandi sits on the Thane\u2013Bhiwandi\u2013Kalyan metro corridor.",
+      "metro_corridors": [
+        "Line 5"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Bhiwandi-Nizampur": {
+      "region": "Thane",
+      "categories": [
+        "Metro",
+        "Regional Transit"
+      ],
+      "description": "Bhiwandi sits on the Thane\u2013Bhiwandi\u2013Kalyan metro corridor.",
+      "metro_corridors": [
+        "Line 5"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kalyan": {
+      "region": "Thane",
+      "categories": [
+        "Regional Rail",
+        "Metro Planning"
+      ],
+      "description": "Central/eastern MMR corridor connected to the Thane\u2013Kalyan metro programme and future Kalyan\u2013Taloja network.",
+      "metro_corridors": [
+        "Line 5",
+        "Line 12"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Dombivli": {
+      "region": "Thane",
+      "categories": [
+        "Regional Rail",
+        "Metro Planning"
+      ],
+      "description": "Central/eastern MMR corridor connected to the Thane\u2013Kalyan metro programme and future Kalyan\u2013Taloja network.",
+      "metro_corridors": [
+        "Line 5",
+        "Line 12"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Thakurli": {
+      "region": "Thane",
+      "categories": [
+        "Regional Rail",
+        "Metro Planning"
+      ],
+      "description": "Central/eastern MMR corridor connected to the Thane\u2013Kalyan metro programme and future Kalyan\u2013Taloja network.",
+      "metro_corridors": [
+        "Line 5",
+        "Line 12"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Titwala": {
+      "region": "Thane",
+      "categories": [
+        "Regional Rail",
+        "Metro Planning"
+      ],
+      "description": "Central/eastern MMR corridor connected to the Thane\u2013Kalyan metro programme and future Kalyan\u2013Taloja network.",
+      "metro_corridors": [
+        "Line 5",
+        "Line 12"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Ambernath": {
+      "region": "Thane/Raigad",
+      "categories": [
+        "Regional Rail",
+        "Long-Term Metro Planning"
+      ],
+      "description": "Eastern MMR transport corridor covered by regional rail planning and the Kanjurmarg\u2013Badlapur metro master-plan corridor.",
+      "metro_corridors": [
+        "Line 14"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Badlapur": {
+      "region": "Thane/Raigad",
+      "categories": [
+        "Regional Rail",
+        "Long-Term Metro Planning"
+      ],
+      "description": "Eastern MMR transport corridor covered by regional rail planning and the Kanjurmarg\u2013Badlapur metro master-plan corridor.",
+      "metro_corridors": [
+        "Line 14"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Vangani": {
+      "region": "Thane/Raigad",
+      "categories": [
+        "Regional Rail",
+        "Long-Term Metro Planning"
+      ],
+      "description": "Eastern MMR transport corridor covered by regional rail planning and the Kanjurmarg\u2013Badlapur metro master-plan corridor.",
+      "metro_corridors": [
+        "Line 14"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Karjat": {
+      "region": "Thane/Raigad",
+      "categories": [
+        "Regional Rail",
+        "Long-Term Metro Planning"
+      ],
+      "description": "Eastern MMR transport corridor covered by regional rail planning and the Kanjurmarg\u2013Badlapur metro master-plan corridor.",
+      "metro_corridors": [
+        "Line 14"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Shelu": {
+      "region": "Thane/Raigad",
+      "categories": [
+        "Regional Rail",
+        "Long-Term Metro Planning"
+      ],
+      "description": "Eastern MMR transport corridor covered by regional rail planning and the Kanjurmarg\u2013Badlapur metro master-plan corridor.",
+      "metro_corridors": [
+        "Line 14"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Palghar": {
+      "region": "Palghar",
+      "categories": [
+        "Regional Rail"
+      ],
+      "description": "Northern MMR regional transport catchment covered by the MMR regional plan.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Shil Phata": {
+      "region": "Thane",
+      "categories": [
+        "Regional Connectivity"
+      ],
+      "description": "Thane\u2013Navi Mumbai regional transport catchment.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Airoli": {
+      "region": "Navi Mumbai",
+      "categories": [
+        "Navi Mumbai Regional Connectivity"
+      ],
+      "description": "Part of the Navi Mumbai metropolitan transport network within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Ghansoli": {
+      "region": "Navi Mumbai",
+      "categories": [
+        "Navi Mumbai Regional Connectivity"
+      ],
+      "description": "Part of the Navi Mumbai metropolitan transport network within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Koper Khairane": {
+      "region": "Navi Mumbai",
+      "categories": [
+        "Navi Mumbai Regional Connectivity"
+      ],
+      "description": "Part of the Navi Mumbai metropolitan transport network within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Sanpada": {
+      "region": "Navi Mumbai",
+      "categories": [
+        "Navi Mumbai Regional Connectivity"
+      ],
+      "description": "Part of the Navi Mumbai metropolitan transport network within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Vashi": {
+      "region": "Navi Mumbai",
+      "categories": [
+        "Navi Mumbai Regional Connectivity"
+      ],
+      "description": "Part of the Navi Mumbai metropolitan transport network within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Nerul": {
+      "region": "Navi Mumbai",
+      "categories": [
+        "Navi Mumbai Regional Connectivity"
+      ],
+      "description": "Part of the Navi Mumbai metropolitan transport network within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Seawoods": {
+      "region": "Navi Mumbai",
+      "categories": [
+        "Navi Mumbai Regional Connectivity"
+      ],
+      "description": "Part of the Navi Mumbai metropolitan transport network within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kharghar": {
+      "region": "Navi Mumbai",
+      "categories": [
+        "Navi Mumbai Regional Connectivity"
+      ],
+      "description": "Part of the Navi Mumbai metropolitan transport network within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Ulwe": {
+      "region": "Navi Mumbai",
+      "categories": [
+        "Navi Mumbai Regional Connectivity"
+      ],
+      "description": "Part of the Navi Mumbai metropolitan transport network within MMR.",
+      "metro_corridors": [
+        "Line 8"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Panvel": {
+      "region": "Raigad",
+      "categories": [
+        "Regional Connectivity",
+        "Navi Mumbai/Panvel Growth"
+      ],
+      "description": "Navi Mumbai\u2013Panvel regional growth corridor within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kamothe": {
+      "region": "Raigad",
+      "categories": [
+        "Regional Connectivity",
+        "Navi Mumbai/Panvel Growth"
+      ],
+      "description": "Navi Mumbai\u2013Panvel regional growth corridor within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Kalamboli": {
+      "region": "Raigad",
+      "categories": [
+        "Regional Connectivity",
+        "Navi Mumbai/Panvel Growth"
+      ],
+      "description": "Navi Mumbai\u2013Panvel regional growth corridor within MMR.",
+      "metro_corridors": [],
+      "scope": "regional",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Taloja": {
+      "region": "Navi Mumbai/Raigad",
+      "categories": [
+        "Metro Planning",
+        "Regional Growth"
+      ],
+      "description": "Planned Kalyan\u2013Taloja Metro Line 12 terminus-side corridor.",
+      "metro_corridors": [
+        "Line 12"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Mira Road": {
+      "region": "Palghar",
+      "categories": [
+        "Western MMR",
+        "Regional Rail/Metro Planning"
+      ],
+      "description": "Western MMR corridor covered by northern western-suburban metro planning and regional transport.",
+      "metro_corridors": [
+        "Line 9 & 7A",
+        "Line 10",
+        "Line 13"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Bhayandar": {
+      "region": "Palghar",
+      "categories": [
+        "Western MMR",
+        "Regional Rail/Metro Planning"
+      ],
+      "description": "Western MMR corridor covered by northern western-suburban metro planning and regional transport.",
+      "metro_corridors": [
+        "Line 9 & 7A",
+        "Line 10",
+        "Line 13"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Naigaon": {
+      "region": "Palghar",
+      "categories": [
+        "Western MMR",
+        "Regional Rail/Metro Planning"
+      ],
+      "description": "Western MMR corridor covered by northern western-suburban metro planning and regional transport.",
+      "metro_corridors": [
+        "Line 13"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Nala Sopara": {
+      "region": "Palghar",
+      "categories": [
+        "Western MMR",
+        "Regional Rail/Metro Planning"
+      ],
+      "description": "Western MMR corridor covered by northern western-suburban metro planning and regional transport.",
+      "metro_corridors": [
+        "Line 13"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Vasai": {
+      "region": "Palghar",
+      "categories": [
+        "Western MMR",
+        "Regional Rail/Metro Planning"
+      ],
+      "description": "Western MMR corridor covered by northern western-suburban metro planning and regional transport.",
+      "metro_corridors": [
+        "Line 13"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Virar": {
+      "region": "Palghar",
+      "categories": [
+        "Western MMR",
+        "Regional Rail/Metro Planning"
+      ],
+      "description": "Western MMR corridor covered by northern western-suburban metro planning and regional transport.",
+      "metro_corridors": [
+        "Line 13"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mmrda_regional_plan"
+      ]
+    },
+    "Matunga": {
+      "region": "Mumbai",
+      "categories": [
+        "Suburban Rail",
+        "Eastern Freeway",
+        "Redevelopment"
+      ],
+      "description": "Matunga sits on both Central and Western suburban lines (Matunga + Matunga Road stations) with rapid access to Dadar, Sion and the Eastern Freeway toward South Mumbai and BKC. Active co-operative society redevelopment is reshaping the stock.",
+      "metro_corridors": [
+        "Central Line",
+        "Western Line"
+      ],
+      "scope": "corridor",
+      "sources": [
+        "mmrda_regional_plan",
+        "central_railway",
+        "western_railway"
+      ]
+    },
+    "Matunga East": {
+      "region": "Mumbai",
+      "categories": [
+        "Suburban Rail",
+        "Eastern Freeway",
+        "Redevelopment"
+      ],
+      "description": "Matunga East is centred around the Central Line station and King Circle catchment. Eastern Freeway and Sion-BKC connector give strong east-west mobility; older CHS stock is undergoing selective redevelopment.",
+      "metro_corridors": [
+        "Central Line"
+      ],
+      "scope": "local",
+      "sources": [
+        "mmrda_regional_plan",
+        "central_railway"
+      ]
+    },
+    "Matunga West": {
+      "region": "Mumbai",
+      "categories": [
+        "Suburban Rail",
+        "Western Line",
+        "Redevelopment"
+      ],
+      "description": "Matunga West benefits from Matunga Road (Western Line) station and proximity to Mahim / Bandra. Post-2000 and redeveloped stock commands a premium over older East-side cooperatives.",
+      "metro_corridors": [
+        "Western Line"
+      ],
+      "scope": "local",
+      "sources": [
+        "mmrda_regional_plan",
+        "western_railway"
+      ]
+    },
+    "Matunga South": {
+      "region": "Mumbai",
+      "categories": [
+        "Suburban Rail",
+        "Eastern Freeway"
+      ],
+      "description": "Southern edge of Matunga toward Dadar / Five Gardens. Shares dual-rail access and Eastern Freeway connectivity with the rest of the Matunga micro-market.",
+      "metro_corridors": [
+        "Central Line",
+        "Western Line"
+      ],
+      "scope": "local",
+      "sources": [
+        "mmrda_regional_plan"
+      ]
+    },
+    "Pedder Road": {
+      "region": "Mumbai",
+      "categories": [
+        "Coastal Road",
+        "South Mumbai Premium",
+        "Metro"
+      ],
+      "description": "Pedder Road is a prime South Mumbai residential corridor with Coastal Road access, proximity to Breach Candy / Cumballa Hill and strong demand for high-end apartments.",
+      "metro_corridors": [
+        "Line 3"
+      ],
+      "scope": "premium",
+      "sources": [
+        "mmrda_metro_master_plan",
+        "mcgm"
+      ]
+    }
+  },
+  "urban_body_profiles": {
+    "Brihanmumbai Municipal Corporation": {
+      "region": "Mumbai",
+      "scope": "administrative",
+      "description": "MMR core city area; transport and metro corridors span western, central and eastern Mumbai.",
+      "metro_corridors": [
+        "Line 1",
+        "Line 2A",
+        "Line 2B",
+        "Line 3",
+        "Line 4",
+        "Line 6",
+        "Line 7",
+        "Line 11"
+      ]
+    },
+    "Thane Municipal Corporation": {
+      "region": "Thane",
+      "scope": "administrative",
+      "description": "Core Thane urban area on Lines 4 and 5.",
+      "metro_corridors": [
+        "Line 4",
+        "Line 5"
+      ]
+    },
+    "Kalyan-Dombivli Municipal Corporation": {
+      "region": "Thane",
+      "scope": "administrative",
+      "description": "Kalyan-Dombivli urban area connected to Line 5 and the planned Line 12 corridor.",
+      "metro_corridors": [
+        "Line 5",
+        "Line 12"
+      ]
+    },
+    "Navi Mumbai Municipal Corporation": {
+      "region": "Navi Mumbai",
+      "scope": "administrative",
+      "description": "Navi Mumbai metropolitan urban area within the MMR regional network.",
+      "metro_corridors": [
+        "Line 8"
+      ]
+    },
+    "Ulhasnagar Municipal Corporation": {
+      "region": "Thane",
+      "scope": "administrative",
+      "description": "Eastern MMR urban area within the Kalyan-Badlapur/central suburban transport catchment.",
+      "metro_corridors": [
+        "Line 5",
+        "Line 12",
+        "Line 14"
+      ]
+    },
+    "Bhiwandi-Nizampur Municipal Corporation": {
+      "region": "Thane",
+      "scope": "administrative",
+      "description": "Bhiwandi urban area on the Thane-Bhiwandi-Kalyan corridor.",
+      "metro_corridors": [
+        "Line 5"
+      ]
+    },
+    "Vasai-Virar City Municipal Corporation": {
+      "region": "Palghar",
+      "scope": "administrative",
+      "description": "Western MMR urban area along the northern western-suburban corridor.",
+      "metro_corridors": [
+        "Line 13",
+        "Line 9 & 7A"
+      ]
+    },
+    "Mira-Bhayandar Municipal Corporation": {
+      "region": "Palghar",
+      "scope": "administrative",
+      "description": "Western MMR urban area directly addressed by the Mira-Bhayandar metro planning corridors.",
+      "metro_corridors": [
+        "Line 9 & 7A",
+        "Line 10"
+      ]
+    },
+    "Panvel Municipal Corporation": {
+      "region": "Raigad",
+      "scope": "administrative",
+      "description": "Panvel-side MMR urban area within the Navi Mumbai\u2013Panvel regional growth corridor.",
+      "metro_corridors": [
+        "Line 8",
+        "Line 12"
+      ]
+    },
+    "Ambernath Municipal Council": {
+      "region": "Thane",
+      "scope": "administrative",
+      "description": "Eastern MMR municipal council within the Kalyan-Badlapur regional corridor.",
+      "metro_corridors": [
+        "Line 14"
+      ]
+    },
+    "Kulgaon-Badlapur Municipal Council": {
+      "region": "Thane",
+      "scope": "administrative",
+      "description": "Eastern MMR municipal council at the Badlapur-side end of the Line 14 planning corridor.",
+      "metro_corridors": [
+        "Line 14"
+      ]
+    },
+    "Matheran Municipal Council": {
+      "region": "Raigad",
+      "scope": "administrative",
+      "description": "MMR hill municipality with special eco-sensitive planning status under the MMR regional plan.",
+      "metro_corridors": []
+    },
+    "Karjat Municipal Council": {
+      "region": "Raigad",
+      "scope": "administrative",
+      "description": "Eastern MMR municipal council in the regional rail catchment.",
+      "metro_corridors": [
+        "Line 14"
+      ]
+    },
+    "Khopoli Municipal Council": {
+      "region": "Raigad",
+      "scope": "administrative",
+      "description": "Raigad-side MMR municipal council within the regional transport framework.",
+      "metro_corridors": []
+    },
+    "Pen Municipal Council": {
+      "region": "Raigad",
+      "scope": "administrative",
+      "description": "Raigad-side MMR municipal council within the regional planning area.",
+      "metro_corridors": []
+    },
+    "Uran Municipal Council": {
+      "region": "Raigad",
+      "scope": "administrative",
+      "description": "Navi Mumbai/port-side MMR municipal council within the regional transport and logistics area.",
+      "metro_corridors": [
+        "Line 8"
+      ]
+    },
+    "Alibag Municipal Council": {
+      "region": "Raigad",
+      "scope": "administrative",
+      "description": "Raigad-side MMR municipal council within the sanctioned MMR regional plan.",
+      "metro_corridors": []
+    },
+    "Palghar Municipal Council": {
+      "region": "Palghar",
+      "scope": "administrative",
+      "description": "Northern MMR municipal council within the sanctioned MMR regional plan.",
+      "metro_corridors": [
+        "Line 13"
+      ]
+    },
+    "Khalapur Nagar Panchayat": {
+      "region": "Raigad",
+      "scope": "administrative",
+      "description": "Raigad-side MMR local government area within the sanctioned MMR regional plan.",
+      "metro_corridors": []
+    }
+  },
+  "sources": {
+    "mmrda_about_mmr": "https://www.mmrda.maharashtra.gov.in/mr/about-us/about-mmr",
+    "mmrda_regional_plan": "https://www.mmrda.maharashtra.gov.in/en/planning/regional-plan/final-rp-for-mmr",
+    "mmrda_metro_master_plan": "https://www.mmrda.maharashtra.gov.in/en/node/1886",
+    "mmrda_metro_dprs": "https://www.mmrda.maharashtra.gov.in/en/divisions/transport-communications/metro-dprs",
+    "mmrda_projects": "https://www.mmrda.maharashtra.gov.in/en/projects",
+    "mmrda_project_list": "https://www.mmrda.maharashtra.gov.in/en/divisions/transport-communications/project-list",
+    "mmrda_transport_study": "https://mmrda.maharashtra.gov.in/en/node/1331",
+    "mmrda_mutp_projects": "https://mmrda.maharashtra.gov.in/projects/social-development-r-r/resettlement-and-rehabilitation/muip-projects"
+  },
+  "usage_note": "Use locality records for the app's micro-market cards. Use urban_body_profiles for region-level coverage. Do not present a regional/corridor record as an exact property-level amenity or a completed project unless the source supports it."
+}

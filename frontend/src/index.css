@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aura-bg: #090d16;
+  --color-aura-card: #0e1626;
+  --color-aura-card-hover: #141f36;
+  --color-aura-border: #1e293b;
+  --color-aura-primary: #2563eb;
+  --color-aura-primary-hover: #1d4ed8;
+  --color-aura-accent: #0b111e;
+  --color-aura-muted: #64748b;
+  --color-aura-secondary: #94a3b8;
+}
+/* Fix Leaflet container overflow */
+.leaflet-container {
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0 !important;
+  font: inherit;
+}
+
+.leaflet-pane,
+.leaflet-map-pane {
+  z-index: 0 !important;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 10 !important;
+}
+body {
+  @apply bg-aura-bg text-slate-100 antialiased;
+}

@@ -1,0 +1,26 @@
+# Python / Virtual Environment
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Environment Variables & Secrets
+.env
+.env.local
+
+# ML Models & Heavy Data (Track small test samples only)
+ml/saved_models/*.joblib
+ml/saved_models/*.pkl
+ml/data/raw/*
+!ml/data/raw/.gitkeep
+
+# System & IDE files
+.DS_Store
+.vscode/
+.idea/
