@@ -55,3 +55,80 @@
 ---
 
 ## Project Structure
+final-year-project/
+├── backend/
+│   ├── app/
+│   │   ├── routes/          # auth, predict, chat, history, admin, reports, properties...
+│   │   ├── services/        # model_service, chat_services, pdf_service...
+│   │   ├── utils/           # auth_middleware, market_calibration, email_services
+│   │   ├── config.py
+│   │   └── database_setup.py
+│   ├── run.py
+│   └── .env
+├── frontend/
+│   ├── src/
+│   │   ├── components/      # PredictForm, Navbar, charts, maps...
+│   │   ├── pages/           # Auth, Predict, History, Chat, Admin, TopProperties...
+│   │   ├── services/        # API wrappers
+│   │   └── App.jsx
+│   └── ...
+├── ml/
+│   ├── data/
+│   │   ├── raw/             # secondary_sales.csv, rentals.csv...
+│   │   └── processed/       # cleaned_properties.csv
+│   ├── saved_models/        # house_model.joblib, model_metadata.joblib
+│   ├── src/
+│   │   ├── train.py
+│   │   ├── preprocess.py
+│   │   ├── market_feature_builder.py
+│   │   └── locality_config.py
+│   └── ...
+└── docker-compose.yml       # PostgreSQL (pgvector)
+
+
+---
+
+## Quick Start
+
+### 1. Prerequisites
+- Python 3.10+
+- Node.js 18+
+- Docker (for PostgreSQL)
+
+### 2. Database
+```bash
+docker compose up -d
+
+cd backend
+python -m venv venv
+# Windows: venv\Scripts\activate
+# Linux/Mac: source venv/bin/activate
+
+pip install -r requirements.txt   # (create if missing – see dependencies below)
+
+# Configure environment
+cp .env.example .env              # or edit the provided .env
+# Required: JWT_SECRET, GROQ_API_KEY, SMTP credentials, DB_* vars
+
+# Initialize DB + load cleaned properties
+python -m app.database_setup
+
+# Run server
+python run.py
+# → http://localhost:5000
+
+
+FLASK_ENV=development
+JWT_SECRET=your_long_random_secret
+GROQ_API_KEY=gsk_...
+
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SENDER_EMAIL=your@gmail.com
+SENDER_PASSWORD=your_app_password
+
+DB_HOST=127.0.0.1
+DB_PORT=5433
+DB_USER=postgres
+DB_PASSWORD=root
+DB_NAME=mumbai_real_estate
